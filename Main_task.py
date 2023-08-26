@@ -268,3 +268,6 @@ if __name__ == '__main__':
     menu.read_uav_data("UAVdata.txt")
     menu.location_hash_table.create_location_hash_table(menu.uav_data)
     menu.main_menu()
+
+    
+#Something changed.
