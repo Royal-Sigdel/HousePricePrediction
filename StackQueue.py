@@ -5,7 +5,7 @@ class DSAStack:
     Default_Capacity = 100
     
     def __init__(self,max_capacity=Default_Capacity):
-        self.stack = [None]* max_capacity
+        self.stack = np.zeros(max_capacity)
         self.count = 0
         
     def isEmpty(self):
@@ -46,7 +46,7 @@ class DSAQueue:
     DEFAULT_CAPACITY = 100
 
     def __init__(self, max_capacity=DEFAULT_CAPACITY):
-        self.queue = [None] * max_capacity
+        self.queue = np.zeros(max_capacity)
         self.front = 0
         self.rear = 0
         self.count = 0
